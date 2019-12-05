@@ -58,11 +58,11 @@ def main():
     parser.add_argument('dir', help='source directory to read special file')
     args = parser.parse_args()
 
-    # TODO you must write your own code to get the cmdline args.
-    # Read the docs and examples for the argparse module about how to do this.
-    # Parsing command line arguments is a must-have skill.
-    # This is input data validation.  If something is wrong (or missing) with any
-    # required args, the general rule is to print a usage message and exit(1).
+    TODO you must write your own code to get the cmdline args.
+    Read the docs and examples for the argparse module about how to do this.
+    Parsing command line arguments is a must-have skill.
+    This is input data validation.  If something is wrong (or missing) with any
+    required args, the general rule is to print a usage message and exit(1).
     
     source_dir, to_dir, to_zip = args.dir, args.todir, args.tozip
     if source_dir:

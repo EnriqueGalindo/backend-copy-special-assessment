@@ -16,7 +16,8 @@ import argparse
 
 # This is to help coaches and graders identify student assignments
 __author__ = "Enrique Galindo"
-
+# +++your code here+++
+# Write functions and modify main() to call them
 def get_special_paths(dir):
     """returns a list of the absolute paths of the special files in the given directory"""
     file_list = []

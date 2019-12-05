@@ -16,7 +16,8 @@ import argparse
 
 # This is to help coaches and graders identify student assignments
 __author__ = "Enrique Galindo"
-
+# +++your code here+++
+# Write functions and modify main() to call them
 def get_special_paths(dir):
     """returns a list of the absolute paths of the special files in the given directory"""
     file_list = []
@@ -57,7 +58,7 @@ def main():
 
     parser.add_argument('dir', help='source directory to read special file')
     args = parser.parse_args()
-
+    
     # TODO you must write your own code to get the cmdline args.
     # Read the docs and examples for the argparse module about how to do this.
     # Parsing command line arguments is a must-have skill.
